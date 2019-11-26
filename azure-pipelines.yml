@@ -19,7 +19,7 @@ steps:
   displayName: 'Run npm install'
 
 - script: 'npm run test'
-  displayName: 'Run npm run test'
+  displayName: 'Run npm run unit-test'
 
 - script: 'npm run build'
   displayName: 'Run npm run build'
