@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/5635512110/React-Hello-World/_apis/build/status/PanupongDeve.azure-pipelines-hello-world?branchName=master)](https://dev.azure.com/5635512110/React-Hello-World/_build/latest?definitionId=2&branchName=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
