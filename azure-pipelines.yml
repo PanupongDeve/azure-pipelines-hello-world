@@ -18,8 +18,8 @@ steps:
 - script: 'npm install'
   displayName: 'Run npm install'
 
-- script: 'npm run unit-test'
+- script: 'npm run ci-test'
   displayName: 'Run npm run unit-test'
 
-- script: 'npm run build'
+- script: 'npm run ci-build'
   displayName: 'Run npm run build'
