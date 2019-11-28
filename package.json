@@ -15,7 +15,7 @@
     "ci-build": "CI=true npm run build",
     "scan-code-dev": "./scripts/scan-code/scan-dev.sh",
     "scan-code-ci": "./scripts/scan-code/scan-ci.sh",
-    "netlify-build-hook": "./scripts/netlify/build-hook.sh",
+    "netlify-deploy": "./scripts/netlify/deploy-ci.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

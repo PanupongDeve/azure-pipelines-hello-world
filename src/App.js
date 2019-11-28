@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. Update with Hook Successed
+          Edit <code>src/App.js</code> and save to reload. Update with Deploy Azure Successed
         </p>
         <a
           className="App-link"
