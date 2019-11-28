@@ -24,8 +24,10 @@ steps:
 - script: 'npm run ci-test'
   displayName: 'Run npm run unit-test'
 
+- script: 'npm run ci-build'
+  displayName: 'Run npm run build'
+
 - script: 'npm run netlify-deploy'
   displayName: 'Run npm run netlify-deploy'
 
-- script: 'npm run ci-build'
-  displayName: 'Run npm run build'
+
