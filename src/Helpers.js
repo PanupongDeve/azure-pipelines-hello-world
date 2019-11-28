@@ -2,7 +2,7 @@
 
 class Helpers {
     getHello() {
-        return 'Hello Neylify Deploy Success!';
+        return 'Hello World';
     }
 }
 
