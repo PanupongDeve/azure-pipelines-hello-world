@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "ci-test": "CI=true npm test",
-    "ci-build": "CI=true npm run build",
+    "ci-build": "CI=false npm run build",
     "scan-code-dev": "./scripts/scan-code/scan-dev.sh",
     "scan-code-ci": "./scripts/scan-code/scan-ci.sh",
     "netlify-deploy": "./scripts/netlify/deploy-ci.sh",
