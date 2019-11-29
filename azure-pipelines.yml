@@ -22,10 +22,10 @@ steps:
   displayName: 'Run npm run scan-code-ci'
 
 - script: 'npm run ci-test'
-  displayName: 'Run npm run unit-test'
+  displayName: 'Run npm run ci-test'
 
 - script: 'npm run ci-build'
-  displayName: 'Run npm run build'
+  displayName: 'Run npm run ci-build'
 
 - script: 'npm run netlify-deploy'
   displayName: 'Run npm run netlify-deploy'
