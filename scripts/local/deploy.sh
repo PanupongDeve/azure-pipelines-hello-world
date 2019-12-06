@@ -1,1 +1,1 @@
-cp -r ./build ~/deployed
+cp -r ./build /home/panupong-azure/deployed/build
