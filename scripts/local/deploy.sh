@@ -1,1 +1,1 @@
-cp build ~/deployed
+cp ./build ~/deployed
