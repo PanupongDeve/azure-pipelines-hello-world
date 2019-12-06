@@ -1,0 +1,4 @@
+web:
+  build: .
+  ports:
+    - "${NODE_PORT}:3000"
