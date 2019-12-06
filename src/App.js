@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {Helpers.getHello()}
+          {Helpers.getHello()} UPDATE BY ci
         </a>
       </header>
     </div>

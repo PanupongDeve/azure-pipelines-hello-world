@@ -1,0 +1,41 @@
+{
+  "name": "azure-pipeline-simple",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "ci-test": "CI=true npm test",
+    "ci-build": "CI=false npm run build",
+    "scan-code-dev": "./scripts/scan-code/scan-dev.sh",
+    "scan-code-ci": "./scripts/scan-code/scan-ci.sh",
+    "netlify-deploy": "./scripts/netlify/deploy-ci.sh",
+    "deploy-local": "./scripts/local/deploy.sh",
+    "server-start": "node server.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.21.0"
+  }
+}
