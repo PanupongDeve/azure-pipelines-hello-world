@@ -6,7 +6,9 @@ WORKDIR /src
 ADD ./package.json /src/package.json
 ADD ./server.js /src/server.js 
 COPY /build /src/build
-RUN npm install
+RUN npm install -g yarn
+
+RUN yarn install
 
 EXPOSE 3000
 

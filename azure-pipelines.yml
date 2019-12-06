@@ -18,8 +18,8 @@ steps:
 - script: 'npm install'
   displayName: 'Run npm install'
 
-- script: 'npm run scan-code-ci'
-  displayName: 'Run npm run scan-code-ci'
+# - script: 'npm run scan-code-ci'
+#   displayName: 'Run npm run scan-code-ci'
 
 - script: 'npm run ci-test'
   displayName: 'Run npm run ci-test'
