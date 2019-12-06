@@ -27,7 +27,7 @@ steps:
 - script: 'npm run ci-build'
   displayName: 'Run npm run ci-build'
 
-- script: 'npm run netlify-deploy'
-  displayName: 'Run npm run netlify-deploy'
+- script: 'npm run deploy-local'
+  displayName: 'Run npm run deploy-local'
 
 

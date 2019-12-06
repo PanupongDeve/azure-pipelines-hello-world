@@ -16,6 +16,7 @@
     "scan-code-dev": "./scripts/scan-code/scan-dev.sh",
     "scan-code-ci": "./scripts/scan-code/scan-ci.sh",
     "netlify-deploy": "./scripts/netlify/deploy-ci.sh",
+    "deploy-local": "./scripts/local/deploy.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
